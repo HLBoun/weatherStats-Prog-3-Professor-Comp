@@ -2,6 +2,12 @@ Weather Statistics critical thinking:
 
     Program Requirements:
         -Array of 12 Structs to hold weather data for entire year
+            Each month holds:
+                Total Rainfall
+                High Temp
+                Low Temp
+                Avg Temp    
+                
         -User enters data for each month.
         
         -avgMonthlyTemps should be calculated
