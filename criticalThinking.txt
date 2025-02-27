@@ -1,0 +1,26 @@
+Weather Statistics critical thinking:
+
+    Program Requirements:
+        -Array of 12 Structs to hold weather data for entire year
+        -User enters data for each month.
+        
+        -avgMonthlyTemps should be calculated
+        
+        -ONLY AFTER DATA IS ENTERED FOR ALL MONTHS following should be calculated:
+            avgMonthlyRainfall
+            totalYearRainfall
+            highestAndLowest temps (and the months they occurred in)
+            and the average of all the avgMonthlyTemps
+            ****Input validation for temps between -100 & +140 degrees Fahrenheit.
+
+
+    First Thoughts:
+        Since I am required to use structs, then have those structs in an array I should be using pass-by-pointers to change the information in the array.All calculations should follow as normal (adding the numbers and dividing by the number of days inputted.) EXCEPT for the avgMonthlyTemps; that should be calculated as the user is inputting them. 
+
+    Actual Steps Needed:
+        0.) At the top of the paper goes my name--with the date!
+        1.) Declare an arrayOfStructs[12]
+        2.) Make, or reuse, function that allows user input to edit the array.
+        3.) The above ^ function should nest. Outer loop is months, and inner loop is days.
+        4.) Each inner loop iteration should calc the avgMonthlyTemps
+        5
