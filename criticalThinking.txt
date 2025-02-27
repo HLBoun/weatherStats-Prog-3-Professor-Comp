@@ -23,6 +23,8 @@ Weather Statistics critical thinking:
     First Thoughts:
         Since I am required to use structs, then have those structs in an array I should be using pass-by-pointers to change the information in the array.All calculations should follow as normal (adding the numbers and dividing by the number of days inputted.) EXCEPT for the avgMonthlyTemps; that should be calculated as the user is inputting them. 
 
+**Correction/Notes: Realized before coding that every single day is not needed
+
     Actual Steps Needed:
         0.) At the top of the paper goes my name--with the date!
         1.) Declare an arrayOfStructs[12]
