@@ -23,4 +23,4 @@ Weather Statistics critical thinking:
         2.) Make, or reuse, function that allows user input to edit the array.
         3.) The above ^ function should nest. Outer loop is months, and inner loop is days.
         4.) Each inner loop iteration should calc the avgMonthlyTemps
-        5
+        5.) Make functions that do necessary calculations AND output the data.
