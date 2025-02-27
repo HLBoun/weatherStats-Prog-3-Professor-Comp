@@ -8,11 +8,8 @@
 
 
 #include <iostream>
+#include <string>
 #include <array>
-
-// Manually created include files
-#include "structs.h"
-
 
 
 
@@ -22,17 +19,21 @@ struct Month
 {
 	std::string name;
 	double totalRainfall;
-
-	Month array[12];
-
-	array[0].name = "string";
+	double highTemp;
+	double lowTemp;
+	double avgTemp;
 };
 
 
-
-
+//Month array[12];
 
 // Main function, every cpp program needs it
 int main()
 {
+	Month array[12];
+	array[0].name = "January";
+	array[0].totalRainfall = 12;
+	std::cout << array[0].name;
+	std::cout << array[0].totalRainfall;
+	
 }
